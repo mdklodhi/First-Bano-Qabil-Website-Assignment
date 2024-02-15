@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 5</title>
+</head>
+<body bgcolor="Ivory">
+
+    <!-- <form action="action_page.php"> -->
+        <!-- <div class="container"> -->
+          <h1 align="center"><u>Class Five (Forms & Inputs)</u> </h1>
+          <img src="../Class 6/blue_re-pict-house-base.png_32.png" alt=""><h2><a href="../index.html"><b>Home</b></a></h2>
+
+          <fieldset>
+            <h2>Register</h2>
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+      
+          <label for="name"><b>Name</b></label>
+          <input type="text" placeholder="Enter name" name="name" id="name">
+          <hr>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+          <hr>
+      
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+          <hr>
+          
+          <label for="email"><b>Email</b></label>
+          <input type="email" placeholder="Enter Email" name="email" id="email">
+          <hr>
+      
+          <label for="mobilenumber"><b>Mobile Number</b></label>
+          <input type="number" placeholder="Enter Moible Number" name="monum" id="monum" required>
+          <hr>
+      
+          <label for="gender"><b>Gender</b></label><br><br>
+          <label for="male"></label>Male<input type= "radio" name="male" id="male" checked="checked">
+          <label for="female"></label>Female<input type= "radio" name="male" id="female" >
+          <label for="others"></label>Others<input type= "radio" name="male" id="others" >
+          <hr>
+
+          <p>
+            Please select your Subject(s):
+            <br />
+            <input type="checkbox" name="urdu" value="urdu" checked="checked" />Urdu <br>
+            <input type="checkbox" name="english" value="english" /> English <br>
+            <input type="checkbox" name="maths" value="maths" /> Maths
+          </p>
+
+          <p>
+          Select Your Desired Campus <br>
+          <select id="campus" name="campus">         
+            <option value="">Select Your Campus</option>
+            <option value="">Gulshan</option>
+            <option value="">Surjani</option>
+            <option value="">Tariq Road</option>
+            <option value="">Clifton</option>
+            <option value="">Bahria</option>
+            <option value="">Defence</option>
+            <option value="">Malir</option>
+            <option value="">G.Johar</option>
+            <option value="">G.Hadeed</option>
+            <option value="">Shah Faisal</option>
+            <option value="">Landhi</option>
+          </select>
+          </p>  
+
+          <p>
+            Do you Want To Participate In Extra curricular Activities? (You can select more than
+            one option by holding down control on a PC or command key)
+          </p>
+          <select name="ex-act" size="3" multiple="multiple">
+            <option value="Sports" selected="selected">Sports</option>
+            <option value="Music" selected="selected">Music</option>
+            <option value="Writing" selected="selected">Writing</option>
+            <option value="Palyingins">Palying Instruments</option>
+            <option value="Gym" selected="selected">Gym</option>
+            <option value="Eventmgt">Event Management</option>
+          </select>
+
+          
+          <p>Upload your recent Photograph:</p>
+            <input type="file" name="user-info" /><br /><br />
+            <input
+            type="image"
+            src="./By sir/add.gif"
+            width="130"
+            height="60"
+          />
+            <input type="submit" value="Upload Photograph" />
+
+            <p>Like & Share our Pages:</p>
+            <input type="text" name="like" />
+            <input type="submit" name="like" value="Subscribe" />  
+
+          <p>By creating an account you agree to our <a href="./index.html  ">Terms & Privacy</a>.</p>
+          <button type="submit" class="registerbtn">Register</button>
+        <!-- </div> -->
+      
+        <!-- <div class="container signin"> -->
+          <p>Already have an account? <a href="./inex2.html" target="_blank">Sign in</a>.</p>
+        </div>
+      </fieldset>
+      </form>
+    
+</body>
+</html>
